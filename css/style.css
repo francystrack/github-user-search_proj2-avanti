@@ -1,0 +1,64 @@
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Bold.ttf);
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: nunito, sans-serif;
+    background-color: #1f1f1f;
+}
+
+a {text-decoration: none;}
+
+button {border: none;}
+
+button:hover {cursor: pointer;}
+
+body {
+    position: relative;
+}
+
+.layer-1 {
+    position: absolute;
+    width: 239px;
+    height: 225px;
+    left: 100px;
+    top: 28px;
+}
+
+.ellipse-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ellipse-2 {
+    position: absolute;
+    width: 674px;
+    height: 674px;
+    left: -415px;
+    top: 198px;
+    background: radial-gradient(50% 50% at 50% 50%, #005CFF 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+}
+
+.main-container {
+    width: 70vw;
+    height: 70vh;
+    left: 15vw;
+    top: 15vh;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
