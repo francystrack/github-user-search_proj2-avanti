@@ -1,0 +1,38 @@
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Bold.ttf);
+	font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: nunito, sans-serif;
+
+  color: #fff;
+  background-color: #1f1f1f;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {border: none;}
+
+button:hover {cursor: pointer;}

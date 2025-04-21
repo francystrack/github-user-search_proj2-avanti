@@ -1,0 +1,27 @@
+.bgBlock {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+
+.layer1 {
+    position: absolute;
+    left: 105px;
+    top: 34px;
+}
+
+.ellipse1 {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    opacity: 0.9;
+}
+
+.ellipse2 {
+    position: absolute;
+    left: 0;
+    top: 198px;
+    opacity: 0.9;
+}
+

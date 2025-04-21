@@ -1,0 +1,26 @@
+.group1 {
+    display: inherit;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.githubLogo {
+    width: 58px;
+    height: 58px;
+}
+
+.perfil {
+    font-size: 3em;
+    padding-top: 5px;
+}
+
+.github {
+    width: 160px;
+    height: 45px;
+}
+
+

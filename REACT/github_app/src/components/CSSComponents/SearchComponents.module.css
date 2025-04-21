@@ -1,0 +1,38 @@
+#group2 {
+    position: relative;
+}
+
+#search {
+    width: 500px;
+	height: 62px;
+	border-radius: 10px;
+	padding-left: 18px;
+    padding-right: 70px;
+    font-size: 1.2em;
+    font-family: nunito;
+    align-items: center;
+}
+
+#search:hover {
+	background-color: #d9f3ff;
+	transition-duration: 8ms;
+}
+
+#search:focus {
+    background-color: #d9f3ff;
+}
+
+#searchButton {
+    background-color: #005CFF;
+    height: 62px;
+    width: 62px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#searchButton:hover {
+	background-color: #093a91;
+	transition-duration: 4ms;
+}

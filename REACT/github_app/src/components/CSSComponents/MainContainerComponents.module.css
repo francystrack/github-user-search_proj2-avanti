@@ -1,0 +1,22 @@
+.mainContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 20px;
+    margin: 0 auto;
+    width: 70vw;
+    height: 70vh;
+    min-width: 700px;
+    top: 15vh;
+    left: 15vw;;
+    color: #fff;
+    position: absolute;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.mainContainer:hover {
+    box-shadow: 1px 1px 10px rgba(0, 94, 255, 0.1);
+    transition-duration: 8ms;
+}
