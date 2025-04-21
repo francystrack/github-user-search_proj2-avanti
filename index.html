@@ -312,7 +312,7 @@
         </defs>
     </svg>
 
-    <svg width="634" height="620" viewBox="0 0 634 620" fill="none" xmlns="http://www.w3.org/2000/svg" class="ellipse-1">
+    <svg width="684" height="590" viewBox="0 0 684 610" fill="none" xmlns="http://www.w3.org/2000/svg" class="ellipse-1">
         <circle cx="444" cy="176" r="444" fill="url(#paint0_radial_22_4608)"/>
         <defs>
             <radialGradient id="paint0_radial_22_4608" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(444 176) rotate(90) scale(444)">
@@ -322,16 +322,50 @@
         </defs>
     </svg>
 
-    <div class="ellipse-2"></div>
+    <svg width="259" height="530" viewBox="0 0 259 530" fill="none" xmlns="http://www.w3.org/2000/svg" class="ellipse-2">
+        <circle cx="-78" cy="337" r="337" fill="url(#paint0_radial_22_3226)"/>
+        <defs>
+        <radialGradient id="paint0_radial_22_3226" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-78 337) rotate(90) scale(337)">
+        <stop stop-color="#005CFF"/>
+        <stop offset="1" stop-opacity="0"/>
+        </radialGradient>
+        </defs>
+    </svg>
+    
+    <!-- END OF BACKGROUND -->
 
 
     <!-- CONTENT -->
-    <main>
 
-        <div class="main-container">
-            fgshdugfidsjgsds
-            
-            
+    <main class="main-container">
+        <div class="group-1">
+            <img src="images/github-logo.png" alt="Logo do GitHub" class="github-logo" />
+            <span>Perfil</span>
+            <img src="images/github.png" alt="GitHub" class="github" />
+        </div>
+
+        <form id="group-2">
+            <input type="text" name="search" id="search" aria-label="Barra de pesquisa" placeholder="Digite um usuário do GitHub">
+            <button type="button" id="search-button">
+                <img class="formImg" src="images/search.svg" alt="Botão de busca"/>
+            </button>
+        </form>
+        
+        <div class="user-card">
+            <div class="user-card-container">
+                <div class="user-photo"></div>
+                <div class="user-description">
+                    <h1 class="user-name">Lorem ipsum dolor</h1>
+                    <p class="user-bio">
+                        Sit amet consectetur adipisicing elit. Aperiam laborum consequuntur dolorum, quaerat veniam, fuga, fugiat officia fugit provident nobis non voluptatibus! Consequuntur dolores dolore voluptatum perspiciatis nulla repudiandae ipsum, quos, numquam, magni saepe nemo.
+                    </p>
+                </div>
+          </div>
+        </div>
+
+        <div class="error-message">
+            <p>Nenhum perfil foi encontrado com esse nome de usuário. Tente novamente.</p>
+            <img src="images/error.gif" alt="John Travolta confuso no filme Pulp Fiction" />
         </div>
 
 
