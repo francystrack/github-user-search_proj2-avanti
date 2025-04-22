@@ -2,8 +2,7 @@ import React from 'react'
 import styles from './CSSComponents/MainContainerComponents.module.css'
 import TitleComponent from './TitleComponents'
 import SearchComponents from './SearchComponents'
-import UserCardComponents from './UserCardComponents'
-import ErrorCardComponents from './ErrorCardComponents'
+import GitHubUser from './GitHubUser'
 
 
 const MainContainerComponents = () => {
@@ -11,8 +10,7 @@ const MainContainerComponents = () => {
     <div className={styles.mainContainer}>
       <TitleComponent />
       <SearchComponents />
-      <UserCardComponents />
-      <ErrorCardComponents />
+      <GitHubUser />
     </div>
   )
 }

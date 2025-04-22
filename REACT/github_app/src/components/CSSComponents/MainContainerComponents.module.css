@@ -17,6 +17,6 @@
 }
 
 .mainContainer:hover {
-    box-shadow: 1px 1px 10px rgba(0, 94, 255, 0.1);
+    box-shadow: 1px 1px 30px rgba(0, 94, 255, 0.2);
     transition-duration: 8ms;
 }
