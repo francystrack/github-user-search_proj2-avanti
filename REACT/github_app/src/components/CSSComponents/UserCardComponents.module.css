@@ -1,16 +1,16 @@
 .userCard {
-    /* display: none; */
     background-color: #D9D9D9;
     width: 80%;
     height: 260px;
     border-radius: 25px;
     min-width: 650px;
+    margin: 0 auto;
 }
 
 .userCardContainer {
     display: flex;
     flex-flow: row;
-    justify-content: start;
+    justify-content: center;
     column-gap: 20px;
     color: #000;
     width: 100%;

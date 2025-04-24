@@ -1,15 +1,21 @@
 .errorMessage {
-    display: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     background-color: #D9D9D9;
     width: 70%;
     height: auto;
+    margin: 0 auto;
     border-radius: 15px;
     padding: 20px 50px 5px 50px;
     text-align: center;
     font-size: 1.1em;
     color: crimson;
     font-weight: bold;
-    margin-top: 6px;
+}
+
+.errorMessage p {
+    padding: 20px 50px 5px 50px;
 }
 
 .errorGif {

@@ -10,7 +10,6 @@ const MainContainerComponents = () => {
     <div className={styles.mainContainer}>
       <TitleComponent />
       <SearchComponents />
-      <GitHubUser />
     </div>
   )
 }
