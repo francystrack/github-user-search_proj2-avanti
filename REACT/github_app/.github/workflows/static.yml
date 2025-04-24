@@ -36,9 +36,7 @@ jobs:
           node-version: lts/*
           cache: 'npm'
       - name: Install dependencies
-        run: |
-          cd REACT/github_app
-          npm ci
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Setup Pages
