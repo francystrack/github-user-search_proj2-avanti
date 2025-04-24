@@ -30,15 +30,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Verify lock file exists
+        run: |
+          cd REACT/github_app
+          ls -l package-lock.json
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
           cache: 'npm'
-      - name: Verify lock file exists
-        run: |
-            cd REACT/github_app
-            ls -l package-lock.json
       - name: Install dependencies
         run: |
            cd REACT/github_app
