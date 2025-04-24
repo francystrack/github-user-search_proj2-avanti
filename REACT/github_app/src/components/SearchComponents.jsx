@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react'
+import { useState } from 'react'
 import styles from './CSSComponents/SearchComponents.module.css'
 import GitHubUserComponents from './GitHubUserComponents';
 
@@ -40,7 +40,7 @@ const submitSearch = (event) => {
       </form>
 
       {
-            <GitHubUserComponents username={searchTerm} />
+        <GitHubUserComponents username={searchTerm} />
       }
     </>
   )

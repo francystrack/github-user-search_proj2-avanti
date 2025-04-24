@@ -1,6 +1,8 @@
-import React, {useState, useEffect} from 'react'
-import ErrorCardComponents from './ErrorCardComponents';
-import UserCardComponents from './UserCardComponents';
+import React, {useState, useEffect, Suspense, lazy} from 'react'
+const ErrorCardComponents = lazy(() => import('./ErrorCardComponents'))
+const UserCardComponents = lazy(() => import('./UserCardComponents'))
+import styles from './CSSComponents/GitHubUserComponents.module.css'
+
 
 const GitHubUserComponents = (props) => {
     const token = "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";   //token para acessar a API
@@ -36,6 +38,7 @@ const GitHubUserComponents = (props) => {
 
     return (
         <>
+        <Suspense fallback={<img src="images/loading.gif" alt="Carregando" className={styles.loading} />}>
                 {
                     userData && (
                         <UserCardComponents avatar_url={userData.avatar_url} name={userData.name} bio={userData.bio} />
@@ -46,6 +49,8 @@ const GitHubUserComponents = (props) => {
                         <ErrorCardComponents />
                     )
                 }
+        </Suspense>
+                
         </>   
     )
 }
