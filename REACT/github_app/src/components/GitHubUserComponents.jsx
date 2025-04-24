@@ -5,7 +5,9 @@ import styles from './CSSComponents/GitHubUserComponents.module.css'
 
 
 const GitHubUserComponents = (props) => {
-    const token = "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";   //token para acessar a API
+    // const token = "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";   //token para acessar a API
+    const token = "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";
+    
     const [userData, setUserData] = useState(null)
     const [hasError, setHasError] = useState(false)
     
