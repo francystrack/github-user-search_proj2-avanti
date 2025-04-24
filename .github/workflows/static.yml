@@ -35,8 +35,10 @@ jobs:
         with:
           node-version: lts/*
           cache: 'npm'
-      - name: Debug directory structure
-        run: ls -R
+      - name: Verify lock file exists
+        run: |
+            cd REACT/github_app
+            ls -l package-lock.json
       - name: Install dependencies
         run: |
            cd REACT/github_app
