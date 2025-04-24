@@ -5,18 +5,12 @@ import styles from './CSSComponents/GitHubUserComponents.module.css'
 
 
 const GitHubUserComponents = (props) => {
-    const token = "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";   //token para acessar a API
-    
     const [userData, setUserData] = useState(null)
     const [hasError, setHasError] = useState(false)
     
     useEffect(() => {
         if(props.username) {
-            fetch(`https://api.github.com/users/${props.username}`, {
-                headers: new Headers({
-                    'Authorization': `Bearer ${token}`
-                })
-            })
+            fetch(`https://api.github.com/users/${props.username}`)
             .then((response) => {
                 return response.json();
             })
