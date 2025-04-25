@@ -33,7 +33,7 @@ const GitHubUserComponents = (props) => {
 
     return (
         <>
-        <Suspense fallback={<img src="images/loading.gif" alt="Carregando" className={styles.loading} />}>
+        <Suspense fallback={<img src={`${import.meta.env.BASE_URL}/images/loading.gif`} alt="Carregando" className={styles.loading} />}>
                 {
                     userData && (
                         <UserCardComponents avatar_url={userData.avatar_url} name={userData.name} bio={userData.bio} />

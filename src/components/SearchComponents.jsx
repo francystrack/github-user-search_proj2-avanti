@@ -35,7 +35,7 @@ const submitSearch = (event) => {
             id={styles.searchButton}
             onClick={submitSearch}
           >
-            <img src="images/search.svg" alt="Botão de busca" />
+            <img src={`${import.meta.env.BASE_URL}/images/search.svg`} alt="Botão de busca" />
           </button>
       </form>
 
